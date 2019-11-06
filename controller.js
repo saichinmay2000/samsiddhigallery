@@ -1,4 +1,4 @@
 module.exports.home = (req,res,next)=>{
-    var paths = ['images/01.jpg','images/02.jpg','images/edited 03.jpg','images/04.jpg','images/05.jpg'];
+    var paths = ['images/01.jpg','images/02.jpg','images/edited 03.jpg','images/04.jpg','images/05.jpg','images/soc1.jpg','images/soc2.jpg','images/sco3.jpg'];
     res.render('index',{imgs: paths, layout:false});
 };
